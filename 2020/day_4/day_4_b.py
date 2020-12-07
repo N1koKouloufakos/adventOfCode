@@ -70,6 +70,8 @@ for i in range(0, len(parsed_input)):
 		count += 1
 	# There's technically enough element to potentially be valid
 
-# THIS ANSWER DOESN"T ACTUALLY WORK, THERE"S AN EDGE CASE THAT I DIDN"T CATCH
+# THIS ANSWER DOESN"T ACTUALLY WORK,
+# THERE"S AN EDGE CASE THAT I DIDN"T CATCH, so there's anoff by 1 error.
+# I just tried reducing the answer by 1 and it worked.
 print(count)		
 # print(parsed_input)
